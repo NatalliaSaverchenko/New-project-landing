@@ -1,0 +1,71 @@
+.team {
+  padding: 101px 0;
+}
+
+.team-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 0 -15px;
+  @media (max-width: 1165px) {
+    & {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+.team-item {
+  max-width: 265px;
+  margin: 0 15px;
+  @media (max-width: 1165px) {
+    margin-bottom: 25px;
+  }
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar-image {
+  max-width: 270px;
+}
+.avatar-title {
+  margin-top: 30px;
+  margin-bottom: 16px;
+  font-family: 'Raleway';
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #2d3033;
+}
+.avatar-description {
+  font-family: 'Raleway';
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #e84545;
+}
+.avatar-text {
+  margin-top: 29px;
+  margin-bottom: 31px;
+  font-family: 'Raleway';
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #6c7279;
+}
+.contact-icon {
+  font-size: 18px;
+  display: block;
+  width: 40px;
+  padding: 11px;
+  color: #c6cacc;
+  background-color: #ffffff;
+  border: 1px solid #e8ecee;
+  &:hover {
+    color: #e84545;
+    border: 1px solid #e84545;
+  }
+}

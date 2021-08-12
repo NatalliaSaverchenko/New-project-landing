@@ -1,0 +1,40 @@
+.features {
+  padding: 121px 0 50px 0;
+}
+.features-intro {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 -15px;
+  &-card {
+    margin: 0 15px;
+    width: 296px;
+    text-align: center;
+  }
+}
+.card-item {
+  background-color: white;
+  color: #e84545;
+  font-size: 60px;
+  margin-bottom: 34px;
+}
+.card-title {
+  font-family: 'Raleway';
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2d3033;
+  margin-bottom: 25px;
+}
+.card-text {
+  width: 296px;
+  font-family: 'Raleway';
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #6c7279;
+  margin-bottom: 74px;
+}

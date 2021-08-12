@@ -1,0 +1,43 @@
+.masthead {
+  padding: 156px 0;
+  position: relative;
+  z-index: 2;
+}
+.masthead-intro {
+  &-title {
+    font-family: 'OpenSans';
+    font-size: 65px;
+    line-height: 71px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+  }
+  &-text {
+    font-family: 'Raleway';
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 41px;
+
+    text-align: center;
+  }
+  &-link {
+    display: block;
+    width: 200px;
+    margin: 77px auto 0;
+    padding: 18px;
+    font-family: 'Raleway';
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    line-height: 21px;
+    background-color: #e84545;
+  }
+  &-link:hover {
+    opacity: 0.55;
+  }
+}
